@@ -58,6 +58,7 @@ console.log(11 - 6); // substraction
 console.log(5 * 6); // multiplication
 console.log(4 / 2); // division
 console.log(5 % 2); // remainder (modulo)
+console.log(2 ** 3); // exponent
 
 let a = 5;
 a++; // a = a + 1 // increment
