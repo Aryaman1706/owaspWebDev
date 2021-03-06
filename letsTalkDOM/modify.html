@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OWASP WEB DEV</title>
+  </head>
+  <style>
+    .heading {
+      text-align: center;
+    }
+    .parentDiv {
+      display: flex;
+      justify-content: center;
+      background-color: lightgray;
+      margin-top: 5px;
+    }
+    .list {
+      width: 200px;
+    }
+    .list-item {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      color: black;
+      margin: 5px;
+      padding: 2px;
+    }
+  </style>
+  <body>
+    <h1 style="text-align: center">Modifying DOM</h1>
+    <br />
+    <br />
+    <h2 class="heading">Listing</h2>
+    <br />
+    <a href="https://github.com">Redirect me to github.com</a>
+    <div class="parentDiv">
+      <ul class="list">
+        <li class="list-item">HTML5</li>
+        <li class="list-item">CSS3</li>
+        <li class="list-item">JavaScript</li>
+      </ul>
+    </div>
+
+    <script src="modify.js"></script>
+  </body>
+</html>
