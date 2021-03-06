@@ -107,10 +107,14 @@ function iNeedResultCb(error, result) {
 // * 3) async and await
 // ! This is nothing new. It is just syntactical sugar
 async function handlePromise() {
-  const result = await generateResult(true);
-  // all this code after await would run after promise is fullfilled
-  iNeedResult(result);
-  console.log("blah blah");
+  try {
+    const result = await generateResult(true);
+    // all this code after await would run after promise is fullfilled
+    iNeedResult(result);
+    console.log("blah blah");
+  } catch (error) {
+    console.log("The promise was rejected.");
+  }
 }
 
 console.log("Starting...");

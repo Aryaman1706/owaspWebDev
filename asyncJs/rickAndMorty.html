@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OWASP WEB DEV</title>
+
+    <style>
+      .listItem {
+        background-color: lightgray;
+        display: flex;
+        align-items: stretch;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid black;
+      }
+      .textContainer {
+        padding-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+      .img {
+        height: 150px;
+      }
+      .centerAlign {
+        display: flex;
+        justify-content: center;
+      }
+      .pagination {
+        display: flex;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 style="text-align: center">Rick and Morty</h1>
+    <h2 style="text-align: center">Awesome Characters of Rick and Morty</h2>
+
+    <div id="listContainer">
+      <!-- <div class="listItem">
+        <img
+          class="img"
+          src="https://rickandmortyapi.com/api/character/avatar/361.jpeg"
+        />
+        <div class="textContainer">
+          <p>Name:-</p>
+          <p>Place:-</p>
+          <p>Species:-</p>
+        </div>
+      </div> -->
+    </div>
+
+    <div class="centerAlign">
+      <button id="load">Load</button>
+    </div>
+
+    <div class="pagination" style="display: none">
+      <button id="prev">Previous</button>
+      <button id="next">Next</button>
+    </div>
+
+    <script src="rickAndMorty.js"></script>
+  </body>
+</html>
