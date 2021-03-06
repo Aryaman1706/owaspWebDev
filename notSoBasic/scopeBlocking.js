@@ -6,7 +6,7 @@
 // * Variables declared with const can not be re-assigned where as
 // * those declared by var or let can be re-assigned
 // **** On the bases of scope:-
-// * const and let are block scoped where as var is global or funciton scoped
+// * const and let are block scoped where as var is global or function scoped
 // **** On the bases of number of declarations:-
 // * variable once declared with const and let can not be re-declared, error would be thrown.
 // * Re-declaring var variables wont throw an error

@@ -10,13 +10,13 @@ window.console.log("Hello World!");
 
 // * Various methords on console
 
-// error()
+// * error()
 console.error("This is an error message.");
 
-// warn()
+// * warn()
 console.warn("This is a warning.");
 
-// trace()
+// * trace()
 console.trace("This message will have a stack trace.");
 function getTrace() {
   function logOutStack() {
@@ -26,5 +26,5 @@ function getTrace() {
 }
 getTrace();
 
-// table()
+// * table()
 console.table(["HTML5", "CSS3", "JavaScript"]);
