@@ -1,0 +1,28 @@
+.parent {
+  display: flex;
+  justify-content: space-around;
+  place-items: center;
+}
+
+.basic-div {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.black-backgroud {
+  background-color: black;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+.text-black {
+  text-align: center;
+  color: black;
+}

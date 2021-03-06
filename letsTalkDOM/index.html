@@ -4,11 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>OWASP WEB DEV</title>
   </head>
   <body>
-    <h1 style="text-align: center">Welcome to JavaScript</h1>
-    <h2 style="text-align: center">Lets Talk DOM</h2>
+    <h1 class="text-black">Welcome to JavaScript</h1>
+    <h2 class="text-black">Lets Talk DOM</h2>
+
+    <h4 class="text-black">Divs with same classes</h4>
+    <div class="parent">
+      <div class="basic-div">
+        <h4>Div 1</h4>
+      </div>
+      <div class="basic-div">
+        <h4>Div 2</h4>
+      </div>
+      <div class="basic-div">
+        <h4>Div 3</h4>
+      </div>
+    </div>
+    <br />
+    <h4 class="text-black">Divs with same classes but different id</h4>
+    <div class="parent">
+      <div class="basic-div" id="diffId1">
+        <h4>Div 1</h4>
+      </div>
+      <!-- <div class="basic-div" id="diffId1">
+        <h4>New div with same id</h4>
+      </div> -->
+      <div class="basic-div" id="diffId2">
+        <h4>Div 2</h4>
+      </div>
+      <div class="basic-div" id="diffId3">
+        <h4>Div 3</h4>
+      </div>
+    </div>
+    <br />
+    <div class="parent">
+      <p class="text-black">Hello! I am a p tag with class basic-text.</p>
+    </div>
+    <br />
+    <!-- <div class="parent">
+      <p class="text-black">Hello! I am a p tag with class basic-text.</p>
+    </div> -->
+
+    <!-- <div class="unique-div">I have unique class</div> -->
 
     <script src="selectors.js"></script>
   </body>
