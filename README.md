@@ -52,6 +52,14 @@
 
 ---
 
+## Project Submission link
+
+[Google Forms](https://forms.gle/2fyPmQBDrkjJGga86)
+
+Make sure that GitHub repo/GDrive link are accessible.
+
+---
+
 ## Say Hello to OWASP!
 
 **Instagram** [Follow Us here](https://www.instagram.com/owasp_tiet/?hl=en)
@@ -73,3 +81,23 @@
 **Gmail** 1761ary@gmail.com
 
 **GitHub** [Follow Here](https://github.com/Aryaman1706)
+
+---
+
+## Read Further
+
+[Web Dev for Beginners - Microsoft](https://github.com/microsoft/Web-Dev-For-Beginners)
+
+[Public API's](https://github.com/n0shake/Public-APIs)
+
+[JSON Server](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i2v2ZqJgydXIcRq_ZizIdD)
+
+[30 days JavaScript](https://github.com/wesbos/JavaScript30)
+
+[Traversy Media - Youtube Channel](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
+
+[The Net Ninja - Youtube Channel](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
+
+[FreeCodeCamp - Youtube Channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
+
+[WebDevSimplified - Youtube Channel](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
