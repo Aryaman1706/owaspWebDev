@@ -44,11 +44,24 @@ console.log(list.childNodes[0]);
 // * if thats part of webpage or not.
 // * Solution:- simply remove empty spaces
 
+// * Get Nodes
 console.log(list.firstChild);
 console.log(list.lastChild);
+
+// * Get Elements
+console.log(list.firstElementChild);
+console.log(list.lastElementChild);
 
 // * Another methord
 console.log(list.children); // returns HTMLCollection
 console.log(list.children[0]);
 
-// ? What is the difference between HTMLCollection and NodeList
+// ? What is the difference between HTMLCollection and NodeList?
+// * HTMLCollection ignores the comments, textNodes etc in your code. Basically anything
+// * that is not painted on DOM. Whereas NodeList returns all the items in your code
+// * be it comments or whitespaces.
+// ! Neither HTMLCollection nor NodeList is an array. They might look like one but they arent.
+// ! To work with them you have to convert them to array using Array.from()
+
+// * Add or Remove class
+console.log(list.classList); // you can add or remove classes from this list
