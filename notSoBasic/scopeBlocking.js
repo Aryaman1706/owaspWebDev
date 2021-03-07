@@ -18,56 +18,10 @@
 // * Example:-
 
 // * Re-assignment
-var a = "declared via var";
-let b = "declared via let";
-const c = "declared via const";
-console.table([a, b, c]);
-
-a = "re-assigning var";
-b = "re-assigning let";
-// c = "re-assigning const";
-console.table([a, b, c]);
 
 // * Scoping
 // Global scoping
-var x = "globally defined var";
-
-if (true) {
-  let y = "block defined let";
-  const z = "block defined const";
-
-  console.log("Inside code block");
-  console.table([x, y, z]);
-}
-
-console.log("Outside code block");
-console.table([x, y, z]);
 
 // Function scoping
-function testScoping() {
-  var functVar = "function defined var";
-
-  if (true) {
-    let functLet = "block defined let inside function";
-    const functConst = "block defined const inside function";
-
-    console.log("Inside code block of function");
-    console.table([functVar, functLet, functConst]);
-  }
-
-  console.log("Outside code block of function");
-  console.table([functVar, functLet, functConst]);
-}
-
-testScoping();
-console.log("Outside function");
-console.table([functVar, functLet, functConst]);
 
 // * Redeclaration
-var newDefVar = "previous var declaration";
-let newDefLet = "previous let declaration";
-const newDefConst = "previous const declaration";
-
-var newDefVar = "new var declaration";
-let newDefLet = "new let declaration";
-const newDefConst = "new const declaration";
