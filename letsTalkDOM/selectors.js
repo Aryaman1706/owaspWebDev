@@ -4,30 +4,17 @@
 // * that make up the page we see along with their hierarchy.
 // * HTML DOM provides a way to javascript to interact with elements
 
-// * document.getElementsByClassName()
-const basicDivs = document.getElementsByClassName("basic-div"); // always return an array
-console.log("Basic divs\n", basicDivs);
+// * document.getElementsByClassName()  // -> always return an array like
 
-// const uniqueDivs = document.getElementsByClassName("unique-div");
-// console.log("Unique divs \n", uniqueDivs);
+// * document.getElementById() // -> return first matching element only
 
-// * document.getElementById()
-const divWithDiffId1 = document.getElementById("diffId1"); // return first matching element only
-console.log("Div with diffId1\n", divWithDiffId1);
-
-// * document.getElementsByTagName()
-const allH4s = document.getElementsByTagName("h4"); // always returns an array
-console.log("All h4 elements\n", allH4s);
+// * document.getElementsByTagName() // -> always returns an array
 
 // ? What are CSS selectors?
 // * CSS selectors are identifiers for different elements in DOM
 
-// * document.querySelector()
-const pTag = document.querySelector("p.text-black"); // returns first matching element
-console.log(pTag);
+// * document.querySelector() // -> returns first matching element
 
-// * document.querySelectorAll()
-const pTags = document.querySelectorAll("p.text-black"); // returns all the matching elements
-console.log(pTags);
+// * document.querySelectorAll() // -> returns all the matching elements
 
 // * Quick Aside on CSS selectors
