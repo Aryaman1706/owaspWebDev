@@ -17,23 +17,13 @@
 
 // * Example:-
 
+// * Quick Aside on setTimeout
+// Syntax:- setTimeout(() => { i will run after time ms }, time)
+// function inside setTimeout is refered to as callback function. This function is `called` after the timeout
+
 // Sync
-console.log("Sync");
-console.log("taking order");
-console.log("food cooking");
-setTimeout(function () {
-  console.log("serving order.");
-  console.log("taking another order");
-}, 2000); // function inside setTimeout is refered to as callback function. This function is `called` after the timeout
 
 // Async
-console.log("Async");
-console.log("taking order");
-console.log("food cooking");
-setTimeout(function () {
-  console.log("serving order");
-}, 2000);
-console.log("taking another order");
 
 // ? Where do we use async functionality?
 // * Mostly while requesting data from API. In this case we want user to interact
