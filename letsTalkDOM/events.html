@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OWASP WEB DEV</title>
+
+    <style>
+      .text-black {
+        text-align: center;
+      }
+      #clickBtn {
+        width: 50px;
+      }
+      .typing {
+        margin: 0px;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="text-black">Welcome to JavaScript</h1>
+    <h2 class="text-black">Where's the event?</h2>
+
+    <h3 style="text-align: center">PlayGround</h3>
+    <div
+      style="
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      "
+    >
+      <button id="clickBtn" onclick="clickHandlerHtml(event)">Click Me</button>
+      <button id="clickBtn">Click Me</button>
+    </div>
+
+    <h3 style="text-align: center">Counter Example</h3>
+    <div
+      id="counter"
+      style="
+        display: flex;
+        justify-content: space-around;
+        background-color: beige;
+        padding: 5px;
+      "
+    >
+      <button id="addBtn">+</button>
+      <h3>0</h3>
+      <button id="substractBtn">-</button>
+    </div>
+
+    <h3 style="text-align: center">Print Name Example</h3>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 200px;
+        margin: auto;
+      "
+    >
+      <form>
+        <label for="nameInput">Name</label>
+        <input
+          type="text"
+          name="nameInput"
+          placeholder="Enter Your name here"
+          value=""
+        />
+        <p class="typing" style="display: none">Typing...</p>
+        <button type="submit" style="margin-top: 10px">Print Name</button>
+        <button type="button" style="margin-top: 10px">Clear</button>
+      </form>
+      <h3 id="nameContainer" style="text-align: center">Name</h3>
+    </div>
+
+    <script src="events.js"></script>
+  </body>
+</html>
