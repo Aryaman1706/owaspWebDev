@@ -40,7 +40,7 @@
 
 &nbsp;&nbsp;[Read More](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
-## >JS, a multitasker
+## JS, a multitasker
 
 **&nbsp;Asynchronous Programming**
 
@@ -68,7 +68,7 @@
 
 ## Say Hello to Me!
 
-**LinkedIn** [Connect Here](www.linkedin.com/in/aryaman-grover-77209b1a5/)
+**LinkedIn** [Connect Here](https://www.linkedin.com/in/aryaman-grover-77209b1a5/)
 
 **Gmail** 1761ary@gmail.com
 
